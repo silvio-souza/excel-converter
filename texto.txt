@@ -1,0 +1,4 @@
+Primeira linha do arquivo
+Segunda linha do arquivo
+123234
+Diária

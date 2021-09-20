@@ -1,9 +1,9 @@
 {
  "lqd":  {
-   "registro": {
-     "tipo": [
+   "registro": [
       {
-        "numTipo": 10,
+        "tipo": 10,
+        "descricaoTipo": "Detalhamento da Liquidação da Despesa",
         "seq": [
           {
           "id": 1,
@@ -113,7 +113,8 @@
         ]
       },
       {
-        "numTipo": 11,
+        "tipo": 11,
+        "descricaoTipo": "Detalhamento da Liquidação da Despesa por Fonte de Recurso",
         "seq": [
           {
           "id": 1,
@@ -192,38 +193,208 @@
           },
           {
             "id": 16,
-            "descricao": "Tipo de liquidação",
-            "tamanho": 1
+            "descricao": "Código da Fonte de Recurso",
+            "tamanho": 6
           },
           {
             "id": 17,
-            "descricao": "Valor liquidado do empenho",
+            "descricao": "Valor despesa por Fonte de Recurso",
             "tamanho": 13
           },
           {
             "id": 18,
-            "descricao": "Nome do Responsável pela Liquidação",
-            "tamanho": 50
+            "descricao": "Espaços em branco",
+            "tamanho": 256
           },
           {
             "id": 19,
-            "descricao": "CPF do Responsável pela Liquidação",
-            "tamanho": 11
+            "descricao": "Número sequencial do registro",
+            "tamanho": 6
+          }
+        ]
+      },
+      {
+        "tipo": 12,
+        "descricaoTipo": "Detalhamento dos Documentos Fiscais",
+        "seq": [
+          {
+          "id": 1,
+          "descricao": "Tipo de Registro",
+          "tamanho": 2
+          }, 
+          {
+            "id": 2,
+            "descricao": "Código do Programa",
+            "tamanho": 4
+          },
+          {
+            "id": 3,
+            "descricao": "Código do Órgão",
+            "tamanho": 2
+          },
+          {
+            "id": 4,
+            "descricao": "Código da Unidade",
+            "tamanho": 2
+          },
+          {
+            "id": 5,
+            "descricao": "Código da Função",
+            "tamanho": 2
+          },
+          {
+            "id": 6,
+            "descricao": "Código da Subfunção",
+            "tamanho": 3
+          },
+          {
+            "id": 7,
+            "descricao": "Natureza da Ação",
+            "tamanho": 1
+          },
+          {
+            "id": 8,
+            "descricao": "Número do Projeto / Atividade",
+            "tamanho": 3
+          },
+          {
+            "id": 9,
+            "descricao": "Elemento de Despesa",
+            "tamanho": 6
+          },
+          {
+            "id": 10,
+            "descricao": "Subelemento da despesa",
+            "tamanho": 2
+          },
+          {
+            "id": 11,
+            "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+            "tamanho": 21
+          },
+          {
+            "id": 12,
+            "descricao": "Número do Empenho",
+            "tamanho": 6
+          },
+          {
+            "id": 13,
+            "descricao": "Data do Empenho",
+            "tamanho": 8
+          },
+          {
+            "id": 14,
+            "descricao": "Número da Liquidação",
+            "tamanho": 6
+          },
+          {
+            "id": 15,
+            "descricao": "Data da Liquidação do Empenho",
+            "tamanho": 8
+          },
+          {
+            "id": 16,
+            "descricao": "Tipo do Documento Fiscal",
+            "tamanho": 2
+          },
+          {
+            "id": 17,
+            "descricao": "Número do Documento Fiscal",
+            "tamanho": 12
+          },
+          {
+            "id": 18,
+            "descricao": "Série do Documento Fiscal",
+            "tamanho": 9
+          },
+          {
+            "id": 19,
+            "descricao": "Data de Emissão Documento Fiscal",
+            "tamanho": 8
           },
           {
             "id": 20,
-            "descricao": "Especificação da Liquidação",
-            "tamanho": 200
+            "descricao": "Chave para consulta  das informações da Nota Fiscal",
+            "tamanho": 44
           },
           {
             "id": 21,
+            "descricao": "Valor do Documento Fiscal",
+            "tamanho": 13
+          },
+          {
+            "id": 22,
+            "descricao": "Valor comprometido do documento fiscal com a liquidação",
+            "tamanho": 13
+          },
+          {
+            "id": 23,
+            "descricao": "CNPJ ou CPF do Credor",
+            "tamanho": 14
+          },
+          {
+            "id": 24,
+            "descricao": "Tipo do credor",
+            "tamanho": 1
+          },
+          {
+            "id": 25,
+            "descricao": "Número da Inscrição Estadual",
+            "tamanho": 15
+          },
+          {
+            "id": 26,
+            "descricao": "Número da Inscrição Municipal",
+            "tamanho": 15
+          },
+          {
+            "id": 27,
+            "descricao": "Número do CEP",
+            "tamanho": 8
+          },
+          {
+            "id": 28,
+            "descricao": "UF da Inscrição do Credor",
+            "tamanho": 2
+          },
+          {
+            "id": 29,
+            "descricao": "Nome do Credor",
+            "tamanho": 50
+          },
+          {
+            "id": 30,
+            "descricao": "Espaços em branco",
+            "tamanho": 69
+          },
+          {
+            "id": 31,
+            "descricao": "Número sequencial do registro",
+            "tamanho": 6
+          }
+        ]
+      },
+      {
+        "tipo": 99,
+        "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+        "seq": [
+          {
+          "id": 1,
+          "descricao": "Tipo de Registro",
+          "tamanho": 2
+          }, 
+          {
+            "id": 2,
+            "descricao": "Espaços em branco",
+            "tamanho": 349
+          },
+          {
+            "id": 3,
             "descricao": "Número sequencial do registro",
             "tamanho": 6
           }
         ]
       }
     ]
-
-   }
- }
+  }
 }
