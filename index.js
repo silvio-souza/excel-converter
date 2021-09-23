@@ -6,9 +6,13 @@
 let fs = require('fs')
 
 
-fs.readFile('LQD0721.txt', 'utf-8', (err, data) => {
+fs.readFile('LQD0721.txt', 'utf8', (err, data) => {
   if (err) throw err
   let dividido = data.split('\r\n')
   // console.log(dividido)
   console.log(dividido[0])
+  // fs.writeFile ('NewFile.txt','Árvoê', function(err) {
+  //   if (err) throw err;
+  //   console.log('complete');
+  // })
 })
