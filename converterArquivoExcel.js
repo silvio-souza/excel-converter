@@ -23,6 +23,14 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo) => {
       .style(header);
     })
 
+    dadosArquivo.forEach(linha => {
+      let linhaPlanilha = 2
+      if (linha.split(0,1) === registro.tipo) {
+        ws[index].cell(registro.seq[index].id, linhaPlanilha).string(linha)
+      }
+      linhaPlanilha++
+    })
+
     // // Set value of cell A1 to 100 as a number type styled with paramaters of style
     // ws[index].cell(1, registro.seq)
     // .number(100)
