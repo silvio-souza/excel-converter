@@ -1,11 +1,12 @@
 {
-  "arquivos": [
-    {
-      "lqd":  {
+  "arquivos": 
+    [
+      {"lqd":  {
         "registro": [
           {
             "tipo": 10,
             "descricaoTipo": "Detalhamento da Liquidação da Despesa",
+            "descricaoResumida": "det_liq_despesa",
             "seq": [
               {
               "id": 1,
@@ -117,6 +118,7 @@
           {
             "tipo": 11,
             "descricaoTipo": "Detalhamento da Liquidação da Despesa por Fonte de Recurso",
+            "descricaoResumida": "det_liq_desp_font_rec",
             "seq": [
               {
               "id": 1,
@@ -218,6 +220,7 @@
           {
             "tipo": 12,
             "descricaoTipo": "Detalhamento dos Documentos Fiscais",
+            "descricaoResumida": "det_doc_fisc",
             "seq": [
               {
               "id": 1,
@@ -379,6 +382,7 @@
           {
             "tipo": 99,
             "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+            "descricaoResumida": "fim_arq_liq_desp",
             "seq": [
               {
               "id": 1,
@@ -398,13 +402,12 @@
             ]
           }
         ]
-      },
-      "ops": {
+      }},
+      {"ops": {
     
-      },
-      "par": {
+      }},
+      {"par": {
         
-      }
-    }
-  ]
+      }}
+    ]
 }
