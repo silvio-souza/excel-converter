@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
-const validaTipoArquivo = require('./validaTipoArquivo')
-const converterArquivoExcel = require('./converterArquivoExcel')
+const validaTipoArquivo = require('./utils/validaTipoArquivo')
+const converterArquivoExcel = require('./utils/converterArquivoExcel')
 filePath = path.join(__dirname, 'arquivoSicom')
 
 fs.readdir(filePath, (err, files) => {
@@ -13,14 +13,16 @@ fs.readdir(filePath, (err, files) => {
   fs.readFile(file, 'binary' ,(err, data) => {
     if (err) throw err
     let dadosArquivo = data.split('\r\n')
-    // console.log(dadosArquivo[0])
-    
-    converterArquivoExcel(validaTipoArquivo(files[0]), dadosArquivo)
 
-    fs.writeFile ('NewFile.txt',dadosArquivo[0], function(err) {
-      if (err) throw err;
-      console.log('complete')
-    })
+    const nomeArquivoOriginal = files[0].slice(0, files[0].length-4)
+    const nomeArquivoTratado = validaTipoArquivo(nomeArquivoOriginal)
+
+    converterArquivoExcel(nomeArquivoTratado, dadosArquivo, nomeArquivoOriginal)
+
+    // fs.writeFile ('NewFile.txt',dadosArquivo[0], function(err) {
+    //   if (err) throw err;
+    //   console.log('complete')
+    // })
   })
 
 })

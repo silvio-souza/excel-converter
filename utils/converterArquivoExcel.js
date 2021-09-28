@@ -1,8 +1,10 @@
 const xl = require('excel4node');
+const separaPosicoes = require('./separaPosicoes')
  
-module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo) => {
+module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivoOriginal) => {
   const wb = new xl.Workbook();
   const ws = []
+
 
   // Create a reusable style
   var header = wb.createStyle({
@@ -16,20 +18,24 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo) => {
   // Add Worksheets to the workbook
   tipoArquivo.registro.forEach((registro, index) => {
     ws.push(wb.addWorksheet(registro.descricaoResumida))
+    let linhaPlanilha = 2
 
     registro.seq.forEach(campo => {
       ws[index].cell(1, campo.id)
       .string(campo.descricao)
-      .style(header);
+      .style(header);  
     })
 
     dadosArquivo.forEach(linha => {
-      let linhaPlanilha = 2
-      if (linha.split(0,1) === registro.tipo) {
-        ws[index].cell(registro.seq[index].id, linhaPlanilha).string(linha)
+      let linhaSeparadaPosicoes = separaPosicoes(registro, linha)
+      if (linhaSeparadaPosicoes[0] == registro.tipo) {
+        linhaSeparadaPosicoes.forEach((posicao, indexPosicao) => {
+          ws[index].cell(linhaPlanilha, indexPosicao+1).string(posicao)
+        })
+        linhaPlanilha++
       }
-      linhaPlanilha++
     })
+
 
     // // Set value of cell A1 to 100 as a number type styled with paramaters of style
     // ws[index].cell(1, registro.seq)
@@ -59,7 +65,5 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo) => {
 
   }) 
  
-  
-  
-  wb.write('Excel.xlsx');
+  wb.write(`./arquivoConvertidoExcel/${nomeArquivoOriginal}.xlsx`);
 }
