@@ -9,10 +9,19 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivo
   // Create a reusable style
   var header = wb.createStyle({
     font: {
-      // color: '#000000',
+      color: '#ffffff',
       size: 12,
+      bold: true,
     },
-    numberFormat: '$#,##0.00; ($#,##0.00); -',
+    alignment: {
+      horizontal: 'center',
+    },
+    fill: {
+      type: 'pattern',
+      patternType: 'solid',
+      bgColor: '#4f81bd',
+      fgColor: '#4f81bd',
+    }
   });
 
   // Add Worksheets to the workbook
@@ -35,6 +44,14 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivo
         linhaPlanilha++
       }
     })
+
+
+    // ws.cell(1, 1).string('My simple string');
+    // ws.cell(1, 2).number(5);
+    // ws.cell(1, 3).formula('B1 * 10');
+    // ws.cell(1, 4).date(new Date());
+    // ws.cell(1, 5).link('http://iamnater.com');
+    // ws.cell(1, 6).bool(true);
 
 
     // // Set value of cell A1 to 100 as a number type styled with paramaters of style
