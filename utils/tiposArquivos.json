@@ -1,7 +1,1568 @@
 {
-  "arquivos": 
-    [
-      {"lqd":  {
+  "arquivos": [
+
+    {"aoc":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Detalhamento das Alterações Orçamentárias",
+          "descricaoResumida": "det_alt_orc",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Valor do Orçamento Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 10,
+              "descricao": "Valor do Saldo Atual Orçado para a Dotação",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Espaços em branco",
+              "tamanho": 35
+            },
+            {
+              "id": 12,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Detalhamento das Alterações Orçamentárias por Elemento de Despesa",
+          "descricaoResumida": "det_alt_orc_elem_desp",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Data da Alteração Orçamentária",
+              "tamanho": 8
+            },
+            {
+              "id": 11,
+              "descricao": "Número da Alteração",
+              "tamanho": 3
+            },
+            {
+              "id": 12,
+              "descricao": "Tipo de Alteração Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 13,
+              "descricao": "Valor da Alteração",
+              "tamanho": 13
+            },
+            {
+              "id": 14,
+              "descricao": "Valor do Saldo Anterior da Dotação",
+              "tamanho": 13
+            },
+            {
+              "id": 15,
+              "descricao": "Valor do Saldo Atual da Dotação",
+              "tamanho": 13
+            },
+            {
+              "id": 16,
+              "descricao": "Espaços em branco",
+              "tamanho": 3
+            },
+            {
+              "id": 17,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 12,
+          "descricaoTipo": "Detalhamento das Alterações Orçamentárias por Fonte de Recurso",
+          "descricaoResumida": "det_alt_orc_font_rec",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Data da Alteração Orçamentária",
+              "tamanho": 8
+            },
+            {
+              "id": 11,
+              "descricao": "Número da Alteração",
+              "tamanho": 3
+            },
+            {
+              "id": 12,
+              "descricao": "Tipo de Alteração Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 13,
+              "descricao": "Código da Fonte de Recursos",
+              "tamanho": 3
+            },
+            {
+              "id": 14,
+              "descricao": "Valor da Alteração na Fonte",
+              "tamanho": 13
+            },
+            {
+              "id": 15,
+              "descricao": "Valor do Saldo da Fonte Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 16,
+              "descricao": "Valor do Saldo Atual da Fonte",
+              "tamanho": 13
+            },
+            {
+              "id": 17,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 90,
+          "descricaoTipo": "Registro da Lei de Suplementação",
+          "descricaoResumida": "reg_lei_supl",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Número da Lei Autorizativa da Suplementação",
+              "tamanho": 8
+            },
+            {
+              "id": 3,
+              "descricao": "Data da Lei da Suplementação",
+              "tamanho": 8
+            },
+            {
+              "id": 4,
+              "descricao": "Valor Autorizado da Suplementação",
+              "tamanho": 13
+            },
+            {
+              "id": 5,
+              "descricao": "Espaços em branco",
+              "tamanho": 49
+            },
+            {
+              "id": 6,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 91,
+          "descricaoTipo": "Registro da Lei de Crédito Especial",
+          "descricaoResumida": "reg_lei_cred_esp",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Número da Lei de Crédito Especial",
+              "tamanho": 8
+            },
+            {
+              "id": 3,
+              "descricao": "Data da Lei do Crédito Especial",
+              "tamanho": 8
+            },
+            {
+              "id": 4,
+              "descricao": "Valor Autorizado do Crédito Especial",
+              "tamanho": 13
+            },
+            {
+              "id": 5,
+              "descricao": "Espaços em branco",
+              "tamanho": 49
+            },
+            {
+              "id": 6,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 92,
+          "descricaoTipo": "Registro da Lei para Realocação de Recursos",
+          "descricaoResumida": "reg_lei_realoc_rec",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Número da Lei para Realocação de Recursos",
+              "tamanho": 8
+            },
+            {
+              "id": 3,
+              "descricao": "Data da Lei Realocação Recursos",
+              "tamanho": 8
+            },
+            {
+              "id": 4,
+              "descricao": "Valor Autorizado para Realocação de Recursos",
+              "tamanho": 13
+            },
+            {
+              "id": 5,
+              "descricao": "Espaços em branco",
+              "tamanho": 49
+            },
+            {
+              "id": 6,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 93,
+          "descricaoTipo": "Registro da Lei de Alteração do PPA",
+          "descricaoResumida": "reg_lei_alt_ppa",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Número da Lei de Alteração do PPA",
+              "tamanho": 8
+            },
+            {
+              "id": 3,
+              "descricao": "Data da Lei de Alteração do PPA",
+              "tamanho": 8
+            },
+            {
+              "id": 4,
+              "descricao": "Espaços em branco",
+              "tamanho": 62
+            },
+            {
+              "id": 5,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 94,
+          "descricaoTipo": "Registro dos Decretos de Abertura de Créditos Adicionais",
+          "descricaoResumida": "reg_decr_ab_cred_adic",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Número do Decreto",
+              "tamanho": 6
+            },
+            {
+              "id": 3,
+              "descricao": "Data do Decreto",
+              "tamanho": 8
+            },
+            {
+              "id": 4,
+              "descricao": "Valor do Decreto",
+              "tamanho": 13
+            },
+            {
+              "id": 5,
+              "descricao": "Tipo do Crédito Adicional",
+              "tamanho": 1
+            },
+            {
+              "id": 6,
+              "descricao": "Espaços em branco",
+              "tamanho": 50
+            },
+            {
+              "id": 7,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },{
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo das Alterações Orçamentárias",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 78
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"emp":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Detalhamento dos Empenhos do Mês",
+          "descricaoResumida": "det_emp_mes",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Modalidade da Licitação",
+              "tamanho": 2
+            },
+            {
+              "id": 13,
+              "descricao": "Fundamentação legal conforme art. 24 e 25 da Lei 8.666 / 93",
+              "tamanho": 2
+            },
+            {
+              "id": 14,
+              "descricao": "Justificativa para contratação mediante dispensa u inexigibilidade",
+              "tamanho": 213
+            },
+            {
+              "id": 15,
+              "descricao": "Razão da escolha do fornecedor ou executante quando contratação mediante dispensa ou inexigibilidade",
+              "tamanho": 282
+            },
+            {
+              "id": 16,
+              "descricao": "Número do procedimento licitatório ou Número do procedimento de dispensa / inexigibilidade",
+              "tamanho": 8
+            },
+            {
+              "id": 17,
+              "descricao": "Ano do procedimento licitatório ou Ano do procedimento de dispensa / inexigibilidade",
+              "tamanho": 4
+            },
+            {
+              "id": 18,
+              "descricao": "Número do processo administrativo correspondente",
+              "tamanho": 20
+            },
+            {
+              "id": 19,
+              "descricao": "Número do instrumento de contrato",
+              "tamanho": 3
+            },
+            {
+              "id": 20,
+              "descricao": "Assunto da aquisição",
+              "tamanho": 2
+            },
+            {
+              "id": 21,
+              "descricao": "Tipo do Empenho",
+              "tamanho": 2
+            },
+            {
+              "id": 22,
+              "descricao": "Data do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 23,
+              "descricao": "Valor Bruto Empenhado",
+              "tamanho": 13
+            },
+            {
+              "id": 24,
+              "descricao": "Nome do credor",
+              "tamanho": 50
+            },
+            {
+              "id": 25,
+              "descricao": "Tipo do credor",
+              "tamanho": 1
+            },
+            {
+              "id": 26,
+              "descricao": "Número do CPF ou CNPJ",
+              "tamanho": 14
+            },
+            {
+              "id": 27,
+              "descricao": "Porte do Credor",
+              "tamanho": 1
+            },
+            {
+              "id": 28,
+              "descricao": "Especificação do Empenho",
+              "tamanho": 254
+            },
+            {
+              "id": 29,
+              "descricao": "Número do CPF do responsável",
+              "tamanho": 11
+            },
+            {
+              "id": 30,
+              "descricao": "Nome do responsável pelo Empenho",
+              "tamanho": 50
+            },
+            {
+              "id": 31,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Detalhamento dos Empenhos do mês por Fonte de Recurso",
+          "descricaoResumida": "det_emp_mes_font_rec",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Código da Fonte de Recursos",
+              "tamanho": 6
+            },
+            {
+              "id": 13,
+              "descricao": "Valor empenhado da FR",
+              "tamanho": 13
+            },
+            {
+              "id": 14,
+              "descricao": "Espaços em branco",
+              "tamanho": 921
+            },
+            {
+              "id": 15,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 12,
+          "descricaoTipo": "Detalhamento das Obras relacionados aos Empenhos do mês",
+          "descricaoResumida": "det_obras_emp_mes",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da Despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Código da Unidade da Obra",
+              "tamanho": 2
+            },
+            {
+              "id": 13,
+              "descricao": "Código da Obra",
+              "tamanho": 4
+            },
+            {
+              "id": 14,
+              "descricao": "Ano da Obra",
+              "tamanho": 4
+            },
+            {
+              "id": 15,
+              "descricao": "Valor Associado à Obra",
+              "tamanho": 13
+            },
+            {
+              "id": 16,
+              "descricao": "Espaços em branco",
+              "tamanho": 917
+            },
+            {
+              "id": 17,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 13,
+          "descricaoTipo": "Detalhamento dos Contratos relacionados aos Empenhos do mês",
+          "descricaoResumida": "det_contratos_emp_mes",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da Despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Código da Unidade da Obra",
+              "tamanho": 2
+            },
+            {
+              "id": 13,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 14,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 15,
+              "descricao": "Tipo de ajuste entre as partes",
+              "tamanho": 1
+            },
+            {
+              "id": 16,
+              "descricao": "Valor Associado ao Contrato",
+              "tamanho": 13
+            },
+            {
+            "id": 17,
+            "descricao": "Espaços em branco",
+            "tamanho": 900
+            },
+            {
+              "id": 18,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 14,
+          "descricaoTipo": "Detalhamento do Empenho por Credor (Opcional - para as notas de empenhos que possuem vários credores)",
+          "descricaoResumida": "det_emp_credor",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da Despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "CPF/CNPJ do Credor",
+              "tamanho": 14
+            },
+            {
+              "id": 13,
+              "descricao": "Tipo do credor",
+              "tamanho": 1
+            },
+            {
+              "id": 14,
+              "descricao": "Nome do Credor",
+              "tamanho": 50
+            },
+            {
+              "id": 15,
+              "descricao": "Valor associado do Credor",
+              "tamanho": 13
+            },
+            {
+              "id": 16,
+              "descricao": "Espaços em branco",
+              "tamanho": 862
+            },
+            {
+              "id": 17,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo das Alterações Orçamentárias",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 971
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"anl":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Detalhamento dos Empenhos Anulados no mês ",
+          "descricaoResumida": "det_emp_anulad_mes",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Data da Anulação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 13,
+              "descricao": "Número da Anulação no dia",
+              "tamanho": 3
+            },
+            {
+              "id": 14,
+              "descricao": "Data do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 15,
+              "descricao": "Valor Original do Empenho",
+              "tamanho": 13
+            },
+            {
+              "id": 16,
+              "descricao": "Valor a ser anulado do Empenho",
+              "tamanho": 13
+            },
+            {
+              "id": 17,
+              "descricao": "Nome do credor",
+              "tamanho": 50
+            },
+            {
+              "id": 18,
+              "descricao": "Tipo do credor",
+              "tamanho": 1
+            },
+            {
+              "id": 19,
+              "descricao": "Número do CPF ou CNPJ",
+              "tamanho": 14
+            },
+            {
+              "id": 20,
+              "descricao": "Especificação do Empenho",
+              "tamanho": 200
+            },
+            {
+              "id": 21,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Detalhamento dos Empenhos Anulados no mês por Fonte de Recurso",
+          "descricaoResumida": "det_emp_anul_mes_font_rec",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Data da Anulação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 13,
+              "descricao": "Número da Anulação no dia",
+              "tamanho": 3
+            },
+            {
+              "id": 14,
+              "descricao": "Código da Fonte de recursos",
+              "tamanho": 6
+            },
+            {
+              "id": 15,
+              "descricao": "Valor empenhado na fonte de recurso",
+              "tamanho": 13
+            },
+            {
+              "id": 16,
+              "descricao": "Valor a ser anulado da fonte de recurso no empenho",
+              "tamanho": 13
+            },
+            {
+              "id": 17,
+              "descricao": "Espaços em branco",
+              "tamanho": 267
+            },
+            {
+              "id": 18,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 12,
+          "descricaoTipo": "Detalhamento dos Empenhos Anulados no mês referentes às Obras",
+          "descricaoResumida": "det_emp_anul_mes_obras",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da Despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Data da Anulação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 13,
+              "descricao": "Número da Anulação no dia",
+              "tamanho": 3
+            },
+            {
+              "id": 14,
+              "descricao": "Código da Unidade da Obra",
+              "tamanho": 2
+            },
+            {
+              "id": 15,
+              "descricao": "Código da Obra",
+              "tamanho": 4
+            },
+            {
+              "id": 16,
+              "descricao": "Ano da Obra",
+              "tamanho": 4
+            },
+            {
+              "id": 17,
+              "descricao": "Valor anulado associado à obra",
+              "tamanho": 13
+            },
+            {
+              "id": 18,
+              "descricao": "Espaços em branco",
+              "tamanho": 279
+            },
+            {
+              "id": 19,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 13,
+          "descricaoTipo": "Detalhamento dos Empenhos Anulados no mês referentes aos Contratos",
+          "descricaoResumida": "det_emp_anul_mes_contratos",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da Despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Data da Anulação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 13,
+              "descricao": "Número da Anulação no dia",
+              "tamanho": 3
+            },
+            {
+              "id": 14,
+              "descricao": "Código da Unidade do Contrato",
+              "tamanho": 2
+            },
+            {
+              "id": 15,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 16,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+            "id": 17,
+            "descricao": "Tipo de ajuste entre as partes",
+            "tamanho": 1
+            },
+            {
+              "id": 18,
+              "descricao": "Valor anulado associado ao Contrato",
+              "tamanho": 13
+            },
+            {
+              "id": 19,
+              "descricao": "Espaços em branco",
+              "tamanho": 259
+            },
+            {
+              "id": 20,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 14,
+          "descricaoTipo": "Detalhamento do Empenho Anulado por Credor (Opcional - empenhos que possuem vários credores)",
+          "descricaoResumida": "det_emp_anul_credor",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da Despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Data da Anulação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 13,
+              "descricao": "Número da Anulação no dia",
+              "tamanho": 3
+            },
+            {
+              "id": 14,
+              "descricao": "CPF/CNPJ do Credor",
+              "tamanho": 14
+            },
+            {
+              "id": 15,
+              "descricao": "Tipo do credor",
+              "tamanho": 1
+            },
+            {
+              "id": 16,
+              "descricao": "Nome do credor",
+              "tamanho": 50
+            },
+            {
+              "id": 17,
+              "descricao": "Valor anulado da associação do credor",
+              "tamanho": 13
+            },
+            {
+              "id": 18,
+              "descricao": "Espaços em branco",
+              "tamanho": 21
+            },
+            {
+              "id": 19,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo das Alterações Orçamentárias",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 971
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"lqd":  {
         "registro": [
           {
             "tipo": 10,
@@ -402,8 +1963,1160 @@
             ]
           }
         ]
-      }},
-      {"ops": {
+    }},
+
+    {"alq":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Detalhamento da Anulação da Liquidação da Despesa",
+          "descricaoResumida": "det_anul_liq_desp",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+              "tamanho": 21
+            },
+            {
+              "id": 12,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 13,
+              "descricao": "Data do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 14,
+              "descricao": "Número da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 15,
+              "descricao": "Data da Liquidação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 16,
+              "descricao": "Número da Anulação da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 17,
+              "descricao": "Data da Anulação da Liquidação",
+              "tamanho": 8
+            },
+            {
+              "id": 18,
+              "descricao": "Tipo de liquidação",
+              "tamanho": 1
+            },
+            {
+              "id": 19,
+              "descricao": "Valor Liquidado do empenho",
+              "tamanho": 13
+            },
+            {
+              "id": 20,
+              "descricao": "Valor Anulado da Liquidação",
+              "tamanho": 13
+            },
+            {
+              "id": 21,
+              "descricao": "Espaços em branco",
+              "tamanho": 127
+            },
+            {
+              "id": 22,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Detalhamento da Anulação da Liquidação da Despesa por Fonte de Recurso",
+          "descricaoResumida": "det_anul_liq_desp_font_recur",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+              "tamanho": 21
+            },
+            {
+              "id": 12,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 13,
+              "descricao": "Data do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 14,
+              "descricao": "Número da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 15,
+              "descricao": "Data da Liquidação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 16,
+              "descricao": "Número da Anulação da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 17,
+              "descricao": "Data da Anulação da Liquidação",
+              "tamanho": 8
+            },
+            {
+              "id": 18,
+              "descricao": "Código da Fonte de Recurso",
+              "tamanho": 6
+            },
+            {
+              "id": 19,
+              "descricao": "Valor Liquidado do empenho na Fonte de Recurso",
+              "tamanho": 13
+            },
+            {
+              "id": 20,
+              "descricao": "Valor Anulado da Liquidação da Fonte de Recurso",
+              "tamanho": 13
+            },
+            {
+              "id": 21,
+              "descricao": "Espaços em branco",
+              "tamanho": 122
+            },
+            {
+              "id": 22,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 12,
+          "descricaoTipo": "Detalhamento da Anulação dos Documentos Fiscais",
+          "descricaoResumida": "det_anul_doc_fisc",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+              "tamanho": 21
+            },
+            {
+              "id": 12,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 13,
+              "descricao": "Data do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 14,
+              "descricao": "Número da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 15,
+              "descricao": "Data da Liquidação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 16,
+              "descricao": "Número da Anulação da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 17,
+              "descricao": "Data da Anulação da Liquidação",
+              "tamanho": 8
+            },
+            {
+              "id": 18,
+              "descricao": "Tipo do Documento Fiscal",
+              "tamanho": 2
+            },
+            {
+              "id": 19,
+              "descricao": "Número do Documento Fiscal",
+              "tamanho": 12
+            },
+            {
+              "id": 20,
+              "descricao": "Série do Documento Fiscal",
+              "tamanho": 9
+            },
+            {
+              "id": 21,
+              "descricao": "Data de Emissão Documento Fiscal",
+              "tamanho": 8
+            },
+            {
+              "id": 22,
+              "descricao": "Valor Anulado do Documento",
+              "tamanho": 13
+            },
+            {
+              "id": 23,
+              "descricao": "CNPJ ou CPF do Credor",
+              "tamanho": 14
+            },
+            {
+              "id": 24,
+              "descricao": "Tipo do credor",
+              "tamanho": 1
+            },
+            {
+              "id": 25,
+              "descricao": "Número da Inscrição Estadual",
+              "tamanho": 15
+            },
+            {
+              "id": 26,
+              "descricao": "Número da Inscrição Municipal",
+              "tamanho": 15
+            },
+            {
+              "id": 27,
+              "descricao": "Número do CEP",
+              "tamanho": 8
+            },
+            {
+              "id": 28,
+              "descricao": "UF da Inscrição do Credor",
+              "tamanho": 2
+            },
+            {
+              "id": 29,
+              "descricao": "Nome do Credor",
+              "tamanho": 50
+            },
+            {
+              "id": 30,
+              "descricao": "Espaços em branco",
+              "tamanho": 5
+            },
+            {
+              "id": 31,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 13,
+          "descricaoTipo": "Detalhamento do Cancelamento dos Documentos Fiscais ",
+          "descricaoResumida": "det_canc_doc_fisc",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Código do Programa",
+              "tamanho": 4
+            },
+            {
+              "id": 3,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 5,
+              "descricao": "Código da Função",
+              "tamanho": 2
+            },
+            {
+              "id": 6,
+              "descricao": "Código da Subfunção",
+              "tamanho": 3
+            },
+            {
+              "id": 7,
+              "descricao": "Natureza da Ação",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Número do Projeto / Atividade",
+              "tamanho": 3
+            },
+            {
+              "id": 9,
+              "descricao": "Elemento de Despesa",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Subelemento da despesa",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+              "tamanho": 21
+            },
+            {
+              "id": 12,
+              "descricao": "Número do Empenho",
+              "tamanho": 6
+            },
+            {
+              "id": 13,
+              "descricao": "Data do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 14,
+              "descricao": "Número da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 15,
+              "descricao": "Data da Liquidação do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 16,
+              "descricao": "Número da Anulação da Liquidação",
+              "tamanho": 6
+            },
+            {
+              "id": 17,
+              "descricao": "Data da Anulação da Liquidação",
+              "tamanho": 8
+            },
+            {
+              "id": 18,
+              "descricao": "Tipo do Documento Fiscal",
+              "tamanho": 2
+            },
+            {
+              "id": 19,
+              "descricao": "Número do Documento Fiscal",
+              "tamanho": 10
+            },
+            {
+              "id": 20,
+              "descricao": "Série do Documento Fiscal",
+              "tamanho": 8
+            },
+            {
+              "id": 21,
+              "descricao": "Data de Emissão Documento Fiscal",
+              "tamanho": 8
+            },
+            {
+              "id": 22,
+              "descricao": "Valor Anulado do Documento",
+              "tamanho": 13
+            },
+            {
+              "id": 23,
+              "descricao": "CNPJ ou CPF do Credor",
+              "tamanho": 14
+            },
+            {
+              "id": 24,
+              "descricao": "Tipo do credor",
+              "tamanho": 1
+            },
+            {
+              "id": 25,
+              "descricao": "Número da Inscrição Estadual",
+              "tamanho": 15
+            },
+            {
+              "id": 26,
+              "descricao": "Número da Inscrição Municipal",
+              "tamanho": 15
+            },
+            {
+              "id": 27,
+              "descricao": "Número do CEP",
+              "tamanho": 8
+            },
+            {
+              "id": 28,
+              "descricao": "UF da Inscrição do Credor",
+              "tamanho": 2
+            },
+            {
+              "id": 29,
+              "descricao": "Nome do Credor",
+              "tamanho": 50
+            },
+            {
+              "id": 30,
+              "descricao": "Espaços em branco",
+              "tamanho": 8
+            },
+            {
+              "id": 31,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 242
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"ext":  {
+        "registro": [
+          {
+            "tipo": 10,
+            "descricaoTipo": "Detalhamento das Extra Orçamentárias (exclusive Restos a Pagar e Despesas a Pagar)",
+            "descricaoResumida": "det_ext_orc",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              },
+              {
+                "id": 2,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 3,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Categoria que está sendo informada",
+                "tamanho": 1
+              },
+              {
+                "id": 5,
+                "descricao": "Tipo de Lançamento",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Subtipo do lançamento",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Desdobramento do Subtipo",
+                "tamanho": 3
+              },
+              {
+                "id": 8,
+                "descricao": "Número único identificador da Extraorçamentária no exercício",
+                "tamanho": 6
+              },
+              {
+                "id": 9,
+                "descricao": "Descrição da Extraorçamentária",
+                "tamanho": 50
+              },
+              {
+                "id": 10,
+                "descricao": "Valor do Lançamento",
+                "tamanho": 13
+              },
+              {
+                "id": 11,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 11,
+            "descricaoTipo": "Movimentação Financeira das Receitas e Despesas Extra orçamentárias ",
+            "descricaoResumida": "mov_fin_rec_desp_ext_orc",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              },
+              {
+                "id": 2,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 3,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Categoria que está sendo informada",
+                "tamanho": 1
+              },
+              {
+                "id": 5,
+                "descricao": "Tipo de Lançamento",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Subtipo do Lançamento",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Desdobramento do SubTipo",
+                "tamanho": 3
+              },
+              {
+                "id": 8,
+                "descricao": "Número único identificador da Extraorçamentária no exercício",
+                "tamanho": 6
+              },
+              {
+                "id": 9,
+                "descricao": "Código da Unidade Orçamentária referente ao pagamento ou recebimento",
+                "tamanho": 2
+              },
+              {
+                "id": 10,
+                "descricao": "Número do Banco",
+                "tamanho": 3
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Agência Bancária",
+                "tamanho": 4
+              },
+              {
+                "id": 12,
+                "descricao": "Número da Conta-Corrente",
+                "tamanho": 12
+              },
+              {
+                "id": 13,
+                "descricao": "Dígito verificador da Conta Corrente",
+                "tamanho": 1
+              },
+              {
+                "id": 14,
+                "descricao": "Tipo da conta",
+                "tamanho": 2
+              },
+              {
+                "id": 15,
+                "descricao": "Valor da Movimentação",
+                "tamanho": 13
+              },
+              {
+                "id": 16,
+                "descricao": "Espaços em branco",
+                "tamanho": 26
+              },
+              {
+                "id": 17,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 12,
+            "descricaoTipo": "Detalhamento da Fonte de Recursos das Receitas e Despesas Extraorçamentárias",
+            "descricaoResumida": "det_fnt_recr_receit_dsp_extrorc",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              },
+              {
+                "id": 2,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 3,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Categoria que está sendo informada",
+                "tamanho": 1
+              },
+              {
+                "id": 5,
+                "descricao": "Tipo de Lançamento",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Subtipo do Lançamento",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Desdobramento do Sub-Tipo",
+                "tamanho": 3
+              },
+              {
+                "id": 8,
+                "descricao": "Número único identificador da Extraorçamentária no exercício",
+                "tamanho": 6
+              },
+              {
+                "id": 9,
+                "descricao": "Código da Unidade Orçamentária referente ao pagamento ou recebimento",
+                "tamanho": 2
+              },
+              {
+                "id": 10,
+                "descricao": "Número do Banco",
+                "tamanho": 3
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Agência Bancária",
+                "tamanho": 4
+              },
+              {
+                "id": 12,
+                "descricao": "Número da Conta-Corrente",
+                "tamanho": 12
+              },
+              {
+                "id": 13,
+                "descricao": "Dígito verificador da Conta Corrente",
+                "tamanho": 1
+              },
+              {
+                "id": 14,
+                "descricao": "Tipo da Conta",
+                "tamanho": 2
+              },
+              {
+                "id": 15,
+                "descricao": "Código da Fonte de Recurso",
+                "tamanho": 6
+              },
+              {
+                "id": 16,
+                "descricao": "Valor da Fonte de Recursos",
+                "tamanho": 13
+              },
+              {
+                "id": 17,
+                "descricao": "Espaços em branco",
+                "tamanho": 20
+              },
+              {
+                "id": 18,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 99,
+            "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+            "descricaoResumida": "fim_arquivo",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Espaços em branco",
+                "tamanho": 82
+              },
+              {
+                "id": 3,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          }
+        ]
+    }},
+
+    {"aex":  {
+        "registro": [
+          {
+            "tipo": 10,
+            "descricaoTipo": "Detalhamento das Anulações Extraorçamentárias (exclusive Restos a Pagar e Despesas a Pagar )",
+            "descricaoResumida": "det_anul_extraorc",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              },
+              {
+                "id": 2,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 3,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Categoria que está sendo informada",
+                "tamanho": 1
+              },
+              {
+                "id": 5,
+                "descricao": "Tipo de Lançamento",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Subtipo do lançamento",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Desdobramento do Subtipo",
+                "tamanho": 3
+              },
+              {
+                "id": 8,
+                "descricao": "Número único identificador da Extraorçamentária no exercício",
+                "tamanho": 6
+              },
+              {
+                "id": 9,
+                "descricao": "Data da anulação da Extraoçamentária",
+                "tamanho": 8
+              },
+              {
+                "id": 10,
+                "descricao": "Valor de Anulação",
+                "tamanho": 13
+              },
+              {
+                "id": 11,
+                "descricao": "Espaços em branco",
+                "tamanho": 30
+              },
+              {
+                "id": 12,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 11,
+            "descricaoTipo": "Movimentação Financeira das Receitas e Despesas Extraorçamentárias",
+            "descricaoResumida": "mov_fin_rec_desp_extorc",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              },
+              {
+                "id": 2,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 3,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Categoria que está sendo informada",
+                "tamanho": 1
+              },
+              {
+                "id": 5,
+                "descricao": "Tipo de Lançamento",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Subtipo do Lançamento",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Desdobramento do SubTipo",
+                "tamanho": 3
+              },
+              {
+                "id": 8,
+                "descricao": "Número único identificador da Extraorçamentária no exercício",
+                "tamanho": 6
+              },
+              {
+                "id": 9,
+                "descricao": "Data da anulação da Extraoçamentária",
+                "tamanho": 8
+              },
+              {
+                "id": 10,
+                "descricao": "Código da Unidade Orçamentária referente ao pagamento ou rebimento",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número do Banco",
+                "tamanho": 3
+              },
+              {
+                "id": 12,
+                "descricao": "Número da Agência Bancária",
+                "tamanho": 4
+              },
+              {
+                "id": 13,
+                "descricao": "Número da Conta-Corrente",
+                "tamanho": 12
+              },
+              {
+                "id": 14,
+                "descricao": "Dígito verificador da Conta-Corrente",
+                "tamanho": 1
+              },
+              {
+                "id": 15,
+                "descricao": "Tipo da Conta",
+                "tamanho": 2
+              },
+              {
+                "id": 16,
+                "descricao": "Valor de Anulação da Movimentação",
+                "tamanho": 13
+              },
+              {
+                "id": 17,
+                "descricao": "Espaços em branco",
+                "tamanho": 6
+              },
+              {
+                "id": 18,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 12,
+            "descricaoTipo": "Detalhamento da Fonte de Recursos das Receitas e Despesas",
+            "descricaoResumida": "det_fnt_recr_receit_dspes",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              },
+              {
+                "id": 2,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 3,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Categoria informada",
+                "tamanho": 1
+              },
+              {
+                "id": 5,
+                "descricao": "Tipo de Lançamento",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Subtipo do Lançamento",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Desdobramento do Sub-Tipo",
+                "tamanho": 3
+              },
+              {
+                "id": 8,
+                "descricao": "Número único identificador da Extraorçamentária no exercício",
+                "tamanho": 6
+              },
+              {
+                "id": 9,
+                "descricao": "Data da anulação da Extraoçamentária",
+                "tamanho": 8
+              },
+              {
+                "id": 10,
+                "descricao": "Código da Unidade Orçamentária referente ao pagamento ou recebimento",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número do Banco",
+                "tamanho": 3
+              },
+              {
+                "id": 12,
+                "descricao": "Número da Agência Bancária",
+                "tamanho": 4
+              },
+              {
+                "id": 13,
+                "descricao": "Número da Conta-Corrente",
+                "tamanho": 12
+              },
+              {
+                "id": 14,
+                "descricao": "Dígito verificador da Conta-Corrente",
+                "tamanho": 1
+              },
+              {
+                "id": 15,
+                "descricao": "Tipo da Conta",
+                "tamanho": 2
+              },
+              {
+                "id": 16,
+                "descricao": "Código da Fonte de Recurso",
+                "tamanho": 6
+              },
+              {
+                "id": 17,
+                "descricao": "Valor de Anulação da Fonte de Recursos",
+                "tamanho": 13
+              },
+              {
+                "id": 18,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 99,
+            "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+            "descricaoResumida": "fim_arquivo",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Espaços em branco",
+                "tamanho": 70
+              },
+              {
+                "id": 3,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          }
+        ]
+    }},
+
+    {"ops": {
         "registro": [
           {
             "tipo": 10,
@@ -1028,9 +3741,1873 @@
             ]
           }
         ]
-      }},
-      {"par": {
-        
-      }}
-    ]
+    }},
+
+    {"aop": {
+        "registro": [
+          {
+            "tipo": 10,
+            "descricaoTipo": "Detalhamento das Anulações das Ordens de Pagamento",
+            "descricaoResumida": "det_anul_ord_pgmt",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Código do Programa",
+                "tamanho": 4
+              },
+              {
+                "id": 3,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 5,
+                "descricao": "Código da Função",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Código da Subfunção",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Natureza da Ação",
+                "tamanho": 1
+              },
+              {
+                "id": 8,
+                "descricao": "Número do Projeto / Atividade",
+                "tamanho": 3
+              },
+              {
+                "id": 9,
+                "descricao": "Elemento de Despesa",
+                "tamanho": 6
+              },
+              {
+                "id": 10,
+                "descricao": "Subelemento da despesa",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+                "tamanho": 21
+              },
+              {
+                "id": 12,
+                "descricao": "Número do Empenho",
+                "tamanho": 6
+              },
+              {
+                "id": 13,
+                "descricao": "Número da OP Original",
+                "tamanho": 6
+              },
+              {
+                "id": 14,
+                "descricao": "Data da Anulação da OP",
+                "tamanho": 8
+              },
+              {
+                "id": 15,
+                "descricao": "Número da Anulação da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 16,
+                "descricao": "Tipo da OP Original",
+                "tamanho": 1
+              },
+              {
+                "id": 17,
+                "descricao": "Data da Emissão do Empenho",
+                "tamanho": 8
+              },
+              {
+                "id": 18,
+                "descricao": "Data da Emissão da OP Original",
+                "tamanho": 8
+              },
+              {
+                "id": 19,
+                "descricao": "Valor da OP Original.",
+                "tamanho": 13
+              },
+              {
+                "id": 20,
+                "descricao": "Valor Anulado da OP de Origem",
+                "tamanho": 13
+              },
+              {
+                "id": 21,
+                "descricao": "Nome do credor",
+                "tamanho": 50
+              },
+              {
+                "id": 22,
+                "descricao": "Tipo do credor",
+                "tamanho": 1
+              },
+              {
+                "id": 23,
+                "descricao": "Número do CPF ou CNPJ",
+                "tamanho": 14
+              },
+              {
+                "id": 24,
+                "descricao": "Especificação da OP",
+                "tamanho": 197
+              },
+              {
+                "id": 25,
+                "descricao": "Número da extraorçamentária",
+                "tamanho": 6
+              },
+              {
+                "id": 26,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 11,
+            "descricaoTipo": "Detalhamento das Liquidações de Despesas da Anulação da Ordem de Pagamento",
+            "descricaoResumida": "det_liq_desp_anul_ord_pgmt",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Código do Programa",
+                "tamanho": 4
+              },
+              {
+                "id": 3,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 5,
+                "descricao": "Código da Função",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Código da Subfunção",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Natureza da Ação",
+                "tamanho": 1
+              },
+              {
+                "id": 8,
+                "descricao": "Número do Projeto / Atividade",
+                "tamanho": 3
+              },
+              {
+                "id": 9,
+                "descricao": "Elemento de Despesa",
+                "tamanho": 6
+              },
+              {
+                "id": 10,
+                "descricao": "Subelemento da despesa",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Dotação do Resto a Pagar no Padrão usado até 2001",
+                "tamanho": 21
+              },
+              {
+                "id": 12,
+                "descricao": "Número do Empenho",
+                "tamanho": 6
+              },
+              {
+                "id": 13,
+                "descricao": "Número da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 14,
+                "descricao": "Data da Anulação da OP",
+                "tamanho": 8
+              },
+              {
+                "id": 15,
+                "descricao": "Número da Anulação da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 16,
+                "descricao": "Número da Liquidação",
+                "tamanho": 6
+              },
+              {
+                "id": 17,
+                "descricao": "Data da Liquidação",
+                "tamanho": 8
+              },
+              {
+                "id": 18,
+                "descricao": "Valor da Anulação",
+                "tamanho": 13
+              },
+              {
+                "id": 19,
+                "descricao": "Espaços em Branco",
+                "tamanho": 284
+              },
+              {
+                "id": 20,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 12,
+            "descricaoTipo": "Movimentação da Anulação Financeira das Ordens de Pagamento",
+            "descricaoResumida": "mov_anul_fin_ord_pgmt",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Código do Programa",
+                "tamanho": 4
+              },
+              {
+                "id": 3,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 5,
+                "descricao": "Código da Função",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Código da Subfunção",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Natureza da Ação",
+                "tamanho": 1
+              },
+              {
+                "id": 8,
+                "descricao": "Número do Projeto / Atividade",
+                "tamanho": 3
+              },
+              {
+                "id": 9,
+                "descricao": "Elemento de Despesa",
+                "tamanho": 6
+              },
+              {
+                "id": 10,
+                "descricao": "Subelemento da despesa",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+                "tamanho": 21
+              },
+              {
+                "id": 12,
+                "descricao": "Número do Empenho",
+                "tamanho": 6
+              },
+              {
+                "id": 13,
+                "descricao": "Número da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 14,
+                "descricao": "Data da Anulação da OP",
+                "tamanho": 8
+              },
+              {
+                "id": 15,
+                "descricao": "Número da Anulação da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 16,
+                "descricao": "Código da Unidade Orçamentária referente ao pagamento",
+                "tamanho": 2
+              },
+              {
+                "id": 17,
+                "descricao": "Número do Banco",
+                "tamanho": 3
+              },
+              {
+                "id": 18,
+                "descricao": "Número da Agência Bancária",
+                "tamanho": 4
+              },
+              {
+                "id": 19,
+                "descricao": "Número da Conta-Corrente",
+                "tamanho": 12
+              },
+              {
+                "id": 20,
+                "descricao": "Dígito verificador da Conta-Corrente",
+                "tamanho": 1
+              },
+              {
+                "id": 21,
+                "descricao": "Tipo da Conta",
+                "tamanho": 2
+              },
+              {
+                "id": 22,
+                "descricao": "Número do Documento",
+                "tamanho": 15
+              },
+              {
+                "id": 23,
+                "descricao": "Tipo do Documento",
+                "tamanho": 2
+              },
+              {
+                "id": 24,
+                "descricao": "Valor do Documento",
+                "tamanho": 13
+              },
+              {
+                "id": 25,
+                "descricao": "Data de emissão do documento",
+                "tamanho": 8
+              },
+              {
+                "id": 26,
+                "descricao": "Valor associado ao pagamento",
+                "tamanho": 13
+              },
+              {
+                "id": 27,
+                "descricao": "Espaços em branco",
+                "tamanho": 236
+              },
+              {
+                "id": 28,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 13,
+            "descricaoTipo": "Detalhamento da Anulação da Fonte de Recursos das Ordens de Pagamento",
+            "descricaoResumida": "det_anul_font_rec_ord_pgmt",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Código do Programa",
+                "tamanho": 4
+              },
+              {
+                "id": 3,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 5,
+                "descricao": "Código da Função",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Código da Subfunção",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Natureza da Ação",
+                "tamanho": 1
+              },
+              {
+                "id": 8,
+                "descricao": "Número do Projeto / Atividade",
+                "tamanho": 3
+              },
+              {
+                "id": 9,
+                "descricao": "Elemento de Despesa",
+                "tamanho": 6
+              },
+              {
+                "id": 10,
+                "descricao": "Subelemento da despesa",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+                "tamanho": 21
+              },
+              {
+                "id": 12,
+                "descricao": "Número do Empenho",
+                "tamanho": 6
+              },
+              {
+                "id": 13,
+                "descricao": "Número da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 14,
+                "descricao": "Data da Anulação da OP",
+                "tamanho": 8
+              },
+              {
+                "id": 15,
+                "descricao": "Número da Anulação da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 16,
+                "descricao": "Código da Unidade Orçamentária referente ao pagamento",
+                "tamanho": 2
+              },
+              {
+                "id": 17,
+                "descricao": "Número do Banco",
+                "tamanho": 3
+              },
+              {
+                "id": 18,
+                "descricao": "Número da Agência Bancária",
+                "tamanho": 4
+              },
+              {
+                "id": 19,
+                "descricao": "Número da Conta-Corrente",
+                "tamanho": 12
+              },
+              {
+                "id": 20,
+                "descricao": "Dígito verificador da Conta-Corrente",
+                "tamanho": 1
+              },
+              {
+                "id": 21,
+                "descricao": "Tipo da Conta",
+                "tamanho": 2
+              },
+              {
+                "id": 22,
+                "descricao": "Número do Documento",
+                "tamanho": 15
+              },
+              {
+                "id": 23,
+                "descricao": "Código da Fonte de Recurso",
+                "tamanho": 6
+              },
+              {
+                "id": 24,
+                "descricao": "Valor da Anulação por Fonte de Recursos",
+                "tamanho": 13
+              },
+              {
+                "id": 24,
+                "descricao": "Espaços em branco",
+                "tamanho": 253
+              },
+              {
+                "id": 26,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 14,
+            "descricaoTipo": "Detalhamento da Anulação das Retenções das Ordens de Pagamento",
+            "descricaoResumida": "det_anul_reten_ord_pgmt",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Código do Programa",
+                "tamanho": 4
+              },
+              {
+                "id": 3,
+                "descricao": "Código do Órgão",
+                "tamanho": 2
+              },
+              {
+                "id": 4,
+                "descricao": "Código da Unidade Orçamentária",
+                "tamanho": 2
+              },
+              {
+                "id": 5,
+                "descricao": "Código da Função",
+                "tamanho": 2
+              },
+              {
+                "id": 6,
+                "descricao": "Código da Subfunção",
+                "tamanho": 3
+              },
+              {
+                "id": 7,
+                "descricao": "Natureza da Ação",
+                "tamanho": 1
+              },
+              {
+                "id": 8,
+                "descricao": "Número do Projeto / Atividade",
+                "tamanho": 3
+              },
+              {
+                "id": 9,
+                "descricao": "Elemento de Despesa",
+                "tamanho": 6
+              },
+              {
+                "id": 10,
+                "descricao": "Subelemento da despesa",
+                "tamanho": 2
+              },
+              {
+                "id": 11,
+                "descricao": "Número da Dotação do Restos a Pagar no Padrão usado até 2001",
+                "tamanho": 21
+              },
+              {
+                "id": 12,
+                "descricao": "Número do Empenho",
+                "tamanho": 6
+              },
+              {
+                "id": 13,
+                "descricao": "Número da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 14,
+                "descricao": "Data da Anulação da OP",
+                "tamanho": 8
+              },
+              {
+                "id": 15,
+                "descricao": "Número da Anulação da OP",
+                "tamanho": 6
+              },
+              {
+                "id": 16,
+                "descricao": "Tipo de Retenção",
+                "tamanho": 2
+              },
+              {
+                "id": 17,
+                "descricao": "Valor da Anulação da retenção",
+                "tamanho": 13
+              },
+              {
+                "id": 18,
+                "descricao": "Número da extraorçamentária",
+                "tamanho": 6
+              },
+              {
+                "id": 19,
+                "descricao": "Espaços em branco",
+                "tamanho": 290
+              },
+              {
+                "id": 20,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          },
+          {
+            "tipo": 99,
+            "descricaoTipo": "Final de Arquivo das Ordens de Pagamento",
+            "descricaoResumida": "fim_arquivo",
+            "seq": [
+              {
+              "id": 1,
+              "descricao": "Tipo de Registro",
+              "tamanho": 2
+              }, 
+              {
+                "id": 2,
+                "descricao": "Espaços em branco",
+                "tamanho": 383
+              },
+              {
+                "id": 3,
+                "descricao": "Número sequencial do registro",
+                "tamanho": 6
+              }
+            ]
+          }
+        ]
+    }},
+
+    {"con":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Detalhamento dos Contratos",
+          "descricaoResumida": "detalhamento_contratos",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 5,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Tipo de ajuste entre as partes",
+              "tamanho": 1
+            },
+            {
+              "id": 7,
+              "descricao": "Número do CPF ou CNPJ",
+              "tamanho": 14
+            },
+            {
+              "id": 8,
+              "descricao": "Data da Firmatura do Contrato",
+              "tamanho": 8
+            },
+            {
+              "id": 9,
+              "descricao": "Data de publicação do Contrato",
+              "tamanho": 8
+            },
+            {
+              "id": 10,
+              "descricao": "Data Inicial do Contrato",
+              "tamanho": 8
+            },
+            {
+              "id": 11,
+              "descricao": "Data Final do contrato",
+              "tamanho": 8
+            },
+            {
+              "id": 12,
+              "descricao": "Tipo do Contrato",
+              "tamanho": 1
+            },
+            {
+              "id": 13,
+              "descricao": "Objeto do contrato",
+              "tamanho": 255
+            },
+            {
+              "id": 14,
+              "descricao": "Valor Original/Inicial do Contrato",
+              "tamanho": 13
+            },
+            {
+              "id": 15,
+              "descricao": "Nome do credor",
+              "tamanho": 30
+            },
+            {
+              "id": 16,
+              "descricao": "Tipo de Pessoa",
+              "tamanho": 1
+            },
+            {
+              "id": 17,
+              "descricao": "Modalidade da Licitação",
+              "tamanho": 2
+            },
+            {
+              "id": 18,
+              "descricao": "Fundamentação legal conforme art. 24 e 25 da Lei 8.666 / 93",
+              "tamanho": 2
+            },
+            {
+              "id": 19,
+              "descricao": "Justificativa para contratação mediante dispensa ou inexigibilidade",
+              "tamanho": 249
+            },
+            {
+              "id": 20,
+              "descricao": "Razão da escolha do fornecedor ou executante quando contratação mediante dispensa ou inexigibilidade",
+              "tamanho": 245
+            },
+            {
+              "id": 21,
+              "descricao": "Número do procedimento licitatório ou Número do procedimento de dispensa / inexigibilidade",
+              "tamanho": 8
+            },
+            {
+              "id": 22,
+              "descricao": "Ano do procedimento licitatório ou Ano do procedimento de dispensa / inexigibilidade",
+              "tamanho": 4
+            },
+            {
+              "id": 23,
+              "descricao": "Número do processo administrativo  correspondente",
+              "tamanho": 20
+            },
+            {
+              "id": 24,
+              "descricao": "Número do instrumento de contrato",
+              "tamanho": 3
+            },
+            {
+              "id": 25,
+              "descricao": "Assunto da aquisição",
+              "tamanho": 2
+            },
+            {
+              "id": 26,
+              "descricao": "Porte do Credor",
+              "tamanho": 1
+            },
+            {
+              "id": 27,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Detalhamento das Obras e Serviços de Engenharia/Aquisição de Materiais (Engenharia)",
+          "descricaoResumida": "det_obr_serv_eng_aquis_mat",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 5,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Tipo de ajuste entre as partes",
+              "tamanho": 1
+            },
+            {
+              "id": 7,
+              "descricao": "Sub assunto do Contrato de Obras",
+              "tamanho": 2
+            },
+            {
+              "id": 8,
+              "descricao": "Código da Obra",
+              "tamanho": 4
+            },
+            {
+              "id": 9,
+              "descricao": "Ano da Obra",
+              "tamanho": 4
+            },
+            {
+              "id": 10,
+              "descricao": "Detalhamento Resumido do Objeto",
+              "tamanho": 200
+            },
+            {
+              "id": 11,
+              "descricao": "Espaços em branco",
+              "tamanho": 692
+            },
+            {
+              "id": 12,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 21,
+          "descricaoTipo": "Detalhamento dos Termos Aditivos de PRORROGAÇÃO DE PRAZO",
+          "descricaoResumida": "det_term_adit_prorrog_prazo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 5,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Tipo de ajuste entre as partes",
+              "tamanho": 1
+            },
+            {
+              "id": 7,
+              "descricao": "Número sequencial do Termo Aditivo",
+              "tamanho": 4
+            },
+            {
+              "id": 8,
+              "descricao": "Data da Firmatura do Termo Aditivo",
+              "tamanho": 8
+            },
+            {
+              "id": 9,
+              "descricao": "Prazo da Prorrogação",
+              "tamanho": 4
+            },
+            {
+              "id": 10,
+              "descricao": "Nova Data de Término do Contrato",
+              "tamanho": 8
+            },
+            {
+              "id": 11,
+              "descricao": "Número do CPF do Representante Legal do contratado",
+              "tamanho": 11
+            },
+            {
+              "id": 12,
+              "descricao": "Espaços em branco",
+              "tamanho": 867
+            },
+            {
+              "id": 13,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 22,
+          "descricaoTipo": "Detalhamento dos Termos Aditivos de ACRÉSCIMO E/OU DECRÉSCIMO DE VALORES ",
+          "descricaoResumida": "det_term_adit_acres_descres_val",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 5,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Tipo de ajuste entre as partes",
+              "tamanho": 1
+            },
+            {
+              "id": 7,
+              "descricao": "Número sequencial do Termo Aditivo",
+              "tamanho": 4
+            },
+            {
+              "id": 8,
+              "descricao": "Data do Termo Aditivo",
+              "tamanho": 8
+            },
+            {
+              "id": 9,
+              "descricao": "Valor Atualizado Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 10,
+              "descricao": "Valor do Acréscimo",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Valor do Decréscimo",
+              "tamanho": 13
+            },
+            {
+              "id": 12,
+              "descricao": "Novo Valor Contratual",
+              "tamanho": 13
+            },
+            {
+              "id": 13,
+              "descricao": "Número do CPF do Representante Legal do contratado",
+              "tamanho": 11
+            },
+            {
+              "id": 12,
+              "descricao": "Espaços em branco",
+              "tamanho": 827
+            },
+            {
+              "id": 13,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 23,
+          "descricaoTipo": "Detalhamento dos Termos Aditivos de TERMO DE RESCISÃO CONTRATUAL",
+          "descricaoResumida": "det_term_adit_term_resc_contrat",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 5,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Tipo de ajuste entre as partes",
+              "tamanho": 1
+            },
+            {
+              "id": 7,
+              "descricao": "Número do Termo Aditivo",
+              "tamanho": 4
+            },
+            {
+              "id": 8,
+              "descricao": "Data da Rescisão Contratual",
+              "tamanho": 8
+            },
+            {
+              "id": 9,
+              "descricao": "Data do Cancelamento do Empenho",
+              "tamanho": 8
+            },
+            {
+              "id": 10,
+              "descricao": "Valor do Cancelamento do Empenho",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Valor Final do Contrato",
+              "tamanho": 13
+            },
+            {
+              "id": 12,
+              "descricao": "Espaços em branco",
+              "tamanho": 856
+            },
+            {
+              "id": 13,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 24,
+          "descricaoTipo": "Detalhamento do APOSTILAMENTO",
+          "descricaoResumida": "detalhamento_apostilamento",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Contrato",
+              "tamanho": 20
+            },
+            {
+              "id": 5,
+              "descricao": "Ano do Contrato",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Tipo de Apostilamento",
+              "tamanho": 1
+            },
+            {
+              "id": 7,
+              "descricao": "Número sequencial do Apostilamento",
+              "tamanho": 4
+            },
+            {
+              "id": 8,
+              "descricao": "Data do Apostilamento",
+              "tamanho": 8
+            },
+            {
+              "id": 9,
+              "descricao": "Valor Atualizado Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 10,
+              "descricao": "Tipo de alteração realizado pelo apostilamento",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Descrição  da  alteração  feita por apostilamento",
+              "tamanho": 300
+            },
+            {
+              "id": 12,
+              "descricao": "Valor da Apostila",
+              "tamanho": 13
+            },
+            {
+              "id": 13,
+              "descricao": "Novo Valor Contratual",
+              "tamanho": 13
+            },
+            {
+              "id": 14,
+              "descricao": "Número  do  CPF  do  Representante  Legal  do  contratado",
+              "tamanho": 11
+            },
+            {
+              "id": 15,
+              "descricao": "Espaços em branco",
+              "tamanho": 538
+            },
+            {
+              "id": 16,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 82
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"ctb":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Contas Bancárias/Caixa",
+          "descricaoResumida": "contas_banc_caixa",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Banco",
+              "tamanho": 3
+            },
+            {
+              "id": 5,
+              "descricao": "Número da Agência Bancária",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Número da Conta-Corrente",
+              "tamanho": 12
+            },
+            {
+              "id": 7,
+              "descricao": "Dígito verificador da Conta-Corrente",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Tipo da Conta",
+              "tamanho": 2
+            },
+            {
+              "id": 9,
+              "descricao": "Saldo do Início do Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 10,
+              "descricao": "Valor das Entradas no Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Valor das Saídas no Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 12,
+              "descricao": "Saldo do Final do Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 13,
+              "descricao": "Espaços em branco",
+              "tamanho": 10
+            },
+            {
+              "id": 14,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Contas Bancárias/Caixa por Fonte de Recursos",
+          "descricaoResumida": "cont_banc_caix_font_recur",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do Banco",
+              "tamanho": 3
+            },
+            {
+              "id": 5,
+              "descricao": "Número da Agência Bancária",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Número da Conta-Corrente",
+              "tamanho": 12
+            },
+            {
+              "id": 7,
+              "descricao": "Dígito verificador da Conta-Corrente",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Tipo da Conta",
+              "tamanho": 2
+            },
+            {
+              "id": 9,
+              "descricao": "Código da Fonte de Recurso",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Saldo do Início do Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Valor das Entradas no Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 12,
+              "descricao": "Valor das Saídas no Mês",
+              "tamanho": 13
+            },
+            {
+              "id": 13,
+              "descricao": "Saldo do Final do Mês",
+              "tamanho": 17
+            },
+            {
+              "id": 14,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 90,
+          "descricaoTipo": "Saldos do Balancete Financeiro",
+          "descricaoResumida": "sald_balanc_fin",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Saldo do Caixa Exercício Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 5,
+              "descricao": "Saldo do Banco Exercício Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 6,
+              "descricao": "Saldo Aplicação Exercício Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 7,
+              "descricao": "Saldo do Caixa para mês Seguinte",
+              "tamanho": 13
+            },
+            {
+              "id": 8,
+              "descricao": "Saldo do Banco para mês Seguinte",
+              "tamanho": 13
+            },
+            {
+              "id": 9,
+              "descricao": "Saldo Aplicação para mês seguinte",
+              "tamanho": 13
+            },
+            {
+              "id": 10,
+              "descricao": "Espaços em branco",
+              "tamanho": 6
+            },
+            {
+              "id": 13,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 91,
+          "descricaoTipo": "Saldos do Balancete Financeiro por Fonte de Recursos",
+          "descricaoResumida": "sald_balanc_fin_font_recur",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Código da Fonte de Recursos",
+              "tamanho": 6
+            },
+            {
+              "id": 5,
+              "descricao": "Saldo do Caixa Exercício Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 6,
+              "descricao": "Saldo do Banco Exercício Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 7,
+              "descricao": "Saldo Aplicação Exercício Anterior",
+              "tamanho": 13
+            },
+            {
+              "id": 8,
+              "descricao": "Saldo do Caixa para mês Seguinte",
+              "tamanho": 13
+            },
+            {
+              "id": 9,
+              "descricao": "Saldo do Banco para mês Seguinte",
+              "tamanho": 13
+            },
+            {
+              "id": 10,
+              "descricao": "Saldo  Aplicação  para  mês  seguinte",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 88
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"trb":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Conta Bancária/Caixa Origem",
+          "descricaoResumida": "contas_banc_caixa_orig",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número  do banco da conta origem",
+              "tamanho": 3
+            },
+            {
+              "id": 5,
+              "descricao": "Número da agência bancária da conta origem",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Número da conta corrente Origem",
+              "tamanho": 12
+            },
+            {
+              "id": 7,
+              "descricao": "Dígito verificador da conta corrente origem",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Tipo da Conta origem",
+              "tamanho": 2
+            },
+            {
+              "id": 9,
+              "descricao": "Código da Fonte de Recurso",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Valor Transferência Origem",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Espaços em branco",
+              "tamanho": 24
+            },
+            {
+              "id": 12,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Conta Bancária/Caixa Destino",
+          "descricaoResumida": "contas_banc_caixa_dest",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do banco da conta origem",
+              "tamanho": 3
+            },
+            {
+              "id": 5,
+              "descricao": "Número da agência bancária da conta origem",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Número da conta corrente Origem",
+              "tamanho": 12
+            },
+            {
+              "id": 7,
+              "descricao": "Dígito verificador da conta corrente origem",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Tipo da conta origem",
+              "tamanho": 2
+            },
+            {
+              "id": 9,
+              "descricao": "Código da fonte de recurso",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Código da Unidade Orçamentária Destino",
+              "tamanho": 2
+            },
+            {
+              "id": 11,
+              "descricao": "Número do banco da conta Destino",
+              "tamanho": 3
+            },
+            {
+              "id": 12,
+              "descricao": "Número da agência bancária da conta destino",
+              "tamanho": 4
+            },
+            {
+              "id": 13,
+              "descricao": "Número da conta corrente destino",
+              "tamanho": 12
+            },
+            {
+              "id": 14,
+              "descricao": "Dígito verificador da conta corrente destino",
+              "tamanho": 1
+            },
+            {
+              "id": 15,
+              "descricao": "Tipo da conta destino",
+              "tamanho": 2
+            },
+            {
+              "id": 16,
+              "descricao": "Valor Transferência Destino",
+              "tamanho": 13
+            },
+            {
+              "id": 17,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 88
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"tfr":  {
+      "registro": [
+        {
+          "tipo": 10,
+          "descricaoTipo": "Detalhamento da Fonte de Recurso Origem",
+          "descricaoResumida": "det_font_recur_orig",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do banco da conta",
+              "tamanho": 3
+            },
+            {
+              "id": 5,
+              "descricao": "Número da agência bancária da conta",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Número da conta corrente",
+              "tamanho": 12
+            },
+            {
+              "id": 7,
+              "descricao": "Dígito verificador da conta corrente",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Tipo da Conta",
+              "tamanho": 2
+            },
+            {
+              "id": 9,
+              "descricao": "Código da Fonte de Recurso",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Valor decrescido na conta",
+              "tamanho": 13
+            },
+            {
+              "id": 11,
+              "descricao": "Espaços em branco",
+              "tamanho": 6
+            },
+            {
+              "id": 12,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 11,
+          "descricaoTipo": "Detalhamento da Fonte de Recurso Destino",
+          "descricaoResumida": "det_font_recur_dest",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            },
+            {
+              "id": 2,
+              "descricao": "Código do Órgão",
+              "tamanho": 2
+            },
+            {
+              "id": 3,
+              "descricao": "Código da Unidade Orçamentária",
+              "tamanho": 2
+            },
+            {
+              "id": 4,
+              "descricao": "Número do banco da conta",
+              "tamanho": 3
+            },
+            {
+              "id": 5,
+              "descricao": "Número da agência bancária da conta",
+              "tamanho": 4
+            },
+            {
+              "id": 6,
+              "descricao": "Número da conta corrente",
+              "tamanho": 12
+            },
+            {
+              "id": 7,
+              "descricao": "Dígito verificador da conta corrente",
+              "tamanho": 1
+            },
+            {
+              "id": 8,
+              "descricao": "Tipo da conta",
+              "tamanho": 2
+            },
+            {
+              "id": 9,
+              "descricao": "Código da fonte de recurso origem",
+              "tamanho": 6
+            },
+            {
+              "id": 10,
+              "descricao": "Código da fonte de recurso Destino",
+              "tamanho": 6
+            },
+            {
+              "id": 11,
+              "descricao": "Valor acrescido na conta Destino",
+              "tamanho": 13
+            },
+            {
+              "id": 12,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        },
+        {
+          "tipo": 99,
+          "descricaoTipo": "Final de Arquivo da Liquidação da Despesa",
+          "descricaoResumida": "fim_arquivo",
+          "seq": [
+            {
+            "id": 1,
+            "descricao": "Tipo de Registro",
+            "tamanho": 2
+            }, 
+            {
+              "id": 2,
+              "descricao": "Espaços em branco",
+              "tamanho": 51
+            },
+            {
+              "id": 3,
+              "descricao": "Número sequencial do registro",
+              "tamanho": 6
+            }
+          ]
+        }
+      ]
+    }},
+
+    {"par": {
+    }}
+
+  ]
 }

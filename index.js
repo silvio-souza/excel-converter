@@ -21,7 +21,7 @@ fs.readdir(filePath, (err, files) => {
 
     // fs.writeFile ('NewFile.txt',dadosArquivo[0], function(err) {
     //   if (err) throw err;
-    //   console.log('complete')
+      // console.log('complete')
     // })
   })
 

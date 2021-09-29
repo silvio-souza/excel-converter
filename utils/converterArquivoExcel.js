@@ -82,5 +82,5 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivo
 
   }) 
  
-  wb.write(`./arquivoConvertidoExcel/${nomeArquivoOriginal}.xlsx`);
+  wb.write(`./${nomeArquivoOriginal}.xlsx`);
 }
