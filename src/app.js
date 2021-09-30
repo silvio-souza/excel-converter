@@ -1,11 +1,14 @@
 const path = require('path')
 const fs = require('fs')
-const validaTipoArquivo = require('./utils/validaTipoArquivo')
-const converterArquivoExcel = require('./utils/converterArquivoExcel')
-filePath = path.join(__dirname, 'arquivoSicom')
+const validaTipoArquivo = require('./controllers/validaTipoArquivo')
+const converterArquivoExcel = require('./controllers/converterArquivoExcel')
+filePath = path.join(__dirname, '../arquivoSicom')
+// filePath = path.join(__dirname)
 
 fs.readdir(filePath, (err, files) => {
   const file = path.join(filePath, files[0])
+
+  console.log(file)
 
   // Arquivo vem originalmente com encode 'ansi'
   // Usado encoding "binary" devido a problemas de conversao pra 'utf-8'
@@ -19,9 +22,9 @@ fs.readdir(filePath, (err, files) => {
 
     converterArquivoExcel(nomeArquivoTratado, dadosArquivo, nomeArquivoOriginal)
 
-    // fs.writeFile ('NewFile.txt',dadosArquivo[0], function(err) {
+    // fs.writeFile ('NewFile.txt',filePath, function(err) {
     //   if (err) throw err;
-      // console.log('complete')
+    //   console.log('complete')
     // })
   })
 

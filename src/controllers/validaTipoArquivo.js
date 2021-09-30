@@ -1,5 +1,4 @@
-let tipos = require('./tiposArquivos.json')
-
+let tipos = require('../model/tiposArquivos.json')
 
 // Faz a leitura do nome do arquivo e retorna o objeto do Json correspondente
 module.exports = validaTipoArquivo = tipoArquivo => {

@@ -5,7 +5,6 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivo
   const wb = new xl.Workbook();
   const ws = []
 
-
   // Create a reusable style
   var header = wb.createStyle({
     font: {
@@ -44,8 +43,6 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivo
         linhaPlanilha++
       }
     })
-
-
     // ws.cell(1, 1).string('My simple string');
     // ws.cell(1, 2).number(5);
     // ws.cell(1, 3).formula('B1 * 10');
@@ -79,8 +76,7 @@ module.exports = converterArquivoExcel = (tipoArquivo, dadosArquivo, nomeArquivo
     //   .bool(true)
     //   .style(style)
     //   .style({font: {size: 14}});
-
   }) 
  
-  wb.write(`./${nomeArquivoOriginal}.xlsx`);
+  wb.write(`./arquivoConvertidoExcel/${nomeArquivoOriginal}.xlsx`);
 }
