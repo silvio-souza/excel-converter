@@ -1,15 +1,17 @@
 {
   "name": "excel-generator",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
   "license": "MIT",
   "dependencies": {
-    "excel4node": "^1.7.2"
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
   },
-  "bin": "index.js",
-  "pkg":{
+  "bin": "src/app.js",
+  "pkg": {
     "scripts": "utils/**/*",
-    "assets":[
+    "assets": [
       "arquivoConvertidoExcel/**/*",
       "arquivoSicom/**/*"
     ]
