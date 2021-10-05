@@ -2,10 +2,10 @@ const path = require('path')
 const fs = require('fs')
 const validaTipoArquivo = require('./validaTipoArquivo')
 const converterArquivoExcel = require('./converterArquivoExcel')
-filePath = path.join(__dirname, '../../arquivoSicom')
+filePath = path.join(__dirname, '../arquivoSicom')
 // filePath = path.join(__dirname)
 
-module.exports = lerArquivoOriginal => {fs.readdir(filePath, (err, files) => {
+module.exports = lerArquivoOriginal = () => {fs.readdir(filePath, (err, files) => {
     const file = path.join(filePath, files[0])
 
     console.log(file)
