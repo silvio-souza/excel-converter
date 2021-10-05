@@ -1,8 +1,8 @@
 const fs = require('fs')
 const express = require('express')
 const upload = require('express-fileupload')
-const lerArquivoOriginal = require('./controllers/lerArquivoOriginal')
-const path = require('path')
+const lerArquivoOriginal = require('./src/controllers/lerArquivoOriginal')
+// const path = require('path')
 
 const app = express()
 let fileName = ""
@@ -12,7 +12,7 @@ app.use(upload())
 
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html')
+  res.sendFile(__dirname + '/src/views/index.html')
 })
 
 //Post the upload file
@@ -24,7 +24,7 @@ app.post('/upload',function(req,res){
       type = file.mimetype
     
     fileName = name.split('.')[0]
-    const arquivoSicomPath = __dirname + '/arquivoSicom/' + name
+    const arquivoSicomPath = __dirname + '/src/arquivoSicom/' + name
     
 
     file.mv(arquivoSicomPath,function(err){
@@ -34,7 +34,7 @@ app.post('/upload',function(req,res){
       }else{
         lerArquivoOriginal()
         console.log('CHEGUEI BEM AQUI 2')
-        res.sendFile(__dirname + '/views/downloadPage.html')
+        res.sendFile(__dirname + '/src/views/downloadPage.html')
       }
     })
 
@@ -49,14 +49,14 @@ app.post('/upload',function(req,res){
 
 app.get('/download', (req,res) =>{
   //This will be used to download the converted file
-  res.download(__dirname +`/arquivoConvertidoExcel/${fileName}.xlsx`,(err) =>{
+  res.download(__dirname +`/src/arquivoConvertidoExcel/${fileName}.xlsx`,(err) =>{
     if(err){
       res.send(err);
     }else{
       //Delete the files from uploads directory after the use
       console.log('Files deleted');
-      const delete_path_xlsx = process.cwd() + `/arquivoConvertidoExcel/${fileName}.xlsx`;
-      const delete_path_txt = process.cwd() + `/arquivoSicom/${fileName}.txt`;
+      const delete_path_xlsx = process.cwd() + `/src/arquivoConvertidoExcel/${fileName}.xlsx`;
+      const delete_path_txt = process.cwd() + `/src/arquivoSicom/${fileName}.TXT`;
       try {
         fs.unlinkSync(delete_path_xlsx)
         fs.unlinkSync(delete_path_txt)
