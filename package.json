@@ -10,10 +10,10 @@
   },
   "bin": "src/app.js",
   "pkg": {
-    "scripts": "utils/**/*",
+    "scripts": "src/**/*",
     "assets": [
-      "arquivoConvertidoExcel/**/*",
-      "arquivoSicom/**/*"
+      "src/**/*",
+      "src/arquivoSicom/**/*"
     ]
   }
 }
